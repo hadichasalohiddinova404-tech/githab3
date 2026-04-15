@@ -1,0 +1,33 @@
+{
+  "name": "1_chi_8talik",
+  "version": "1.0.0",
+  "description": "Web3.js - 8 ta topshiriq loyihasi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "task1": "node web3-setup.js",
+    "task2": "node web3-setup.js",
+    "task3-4": "node contract-instance.js",
+    "task5": "node view-function.js",
+    "task6": "node send-transaction.js",
+    "task7": "node error-handling.js",
+    "task8": "node gas-settings.js",
+    "all": "node index.js"
+  },
+  "keywords": [
+    "web3",
+    "ethereum",
+    "blockchain",
+    "metamask",
+    "solidity"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^4.x.x"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.28.6"
+  }
+}
